@@ -6,8 +6,8 @@ public class SpawnerAsteroide : MonoBehaviour
 {
     public GameObject asteroidPrefab;
     public float spawnRate = 1f;
-    public float spawnRadius = 5f; 
-    public float destroyDelay = 5f; 
+    public float spawnRadius = 20f; 
+    public float destroyDelay = 6f; 
 
     private float nextSpawnTime = 0f;
 
